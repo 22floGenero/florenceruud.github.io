@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<HEAD><TITLE>GENERO PORTAL</TITLE>
+<META charset="UTF-8"><LINK 
+href="stylesheets/mainstyle.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2800.1170" name=GENERATOR><meta name="viewport" content="width=device-width, initial-scale=1.0"/><SCRIPT 
+src="../stylesheets/sections.js"></SCRIPT><!--[if lt IE 9]>
+		<script src="http://.../js/html5.js" type="text/javascript"></script>
+	<![endif]--></HEAD>
+<body>
+	<header>
+	 <style> html, header, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+html { height: 101%; }
+body { font-family: Calibri, Tahoma, Verdana, Arial, sans-serif; font-size: 62.5%; line-height: 1; padding-bottom: 65px; background: #cccccc; }
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+ 
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+ 
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+#w {
+  display: block;
+  width: 648px;
+  padding: 3px 15px;
+  margin: 0 auto;
+  margin-top: 0 auto;
+}
+ 
+#content {
+  display: block;
+  background: #cccccc;
+  padding: 14px 20px;
+}
+ 
+/* top navigation */
+#navigation {
+  display: block;
+  height: 30px;
+  background-color: #131313;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#131313));
+  background-image: -webkit-linear-gradient(top, #202020, #131313);
+  background-image: -moz-linear-gradient(top, #202020, #131313);
+  background-image: -ms-linear-gradient(top, #202020, #131313);
+  background-image: -o-linear-gradient(top, #202020, #131313);
+  background-image: linear-gradient(top, #202020, #131313);
+}
+ 
+#navigation ul { list-style: none; padding: 0px 80px; }
+ 
+#navigation ul li { display: inline; float: left; }
+#navigation ul li a { 
+  display: block; 
+  padding: 0 8px; 
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  line-height: 35px; 
+  font-weight: bold; 
+  margin-right: 6px;
+  text-shadow: 1px 1px 1px #000;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#navigation ul li a:hover { color: #a8d6e7; }
+/* hidden fixed navigation */
+#fixedbar { 
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: rgba(0,0,0,0.75);
+}
+ 
+#fixednav { 
+  display: block;
+  width: 648px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+ 
+#fixednav li a {
+  display: block;
+  float: left;
+  font-size: 1em;
+  font-weight: bold;
+  color: #96aed8;
+  line-height: 80px;
+  text-decoration: none;
+  padding: 0px 8px;
+  margin-right: 6px; 
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear; 
+}
+#fixednav li a:hover {
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+</style>
+<div id="w">
+  <p><img src="e://vfsite/gfx/BACK_GEN.jpg" width="648" height="238" alt="" title="" /></p>
+  <nav id="navigation">
+    <ul>
+      <li><a href="updates.htm" target="_blank" title="HOME">Home</a></li>
+      <li><a href="about.htm" target="_blank" title="About Us">About Us</a></li>
+      <li><a href="artwork/tribalchemy/3d_printing/releasesindex.htm" title="3D printing" target="_blank">3D printing</a></li>
+      <li><a href="artwork/tribalchemy/index.htm" target="_blank" title="Artwork">Artwork</a></li>
+	  <li><a href="BLANK.htm" target="_blank" title="Media">Media</a></li>
+	  <li><a href="playlist.htm" target="_blank" title="Misc!">Misc</a></li>
+      <li><a href="links/index.htm" target="_blank" title="Links">Links</a></li>
+	  <li><a href="copyrightrestrictions.htm" target="_blank" title="Copyright restrictions">&copy;</a></li>
+    </ul>
+   </nav></div>
+  <div id="content">
+  <!-- content here -->
+  </div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#navigation a, #fixedbar a').on('click', function(e) {
+    e.preventDefault();
+  });
+   
+  $(window).on('scroll',function() {
+    var scrolltop = $(this).scrollTop();
+ 
+    if(scrolltop >= 215) {
+      $('#fixedbar').fadeIn(250);
+    }
+     
+    else if(scrolltop <= 210) {
+      $('#fixedbar').fadeOut(250);
+    }
+  });
+});
+</script></header>
+<P>&nbsp;</P>
+<style>
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+table { border-color: c0c0c0; cellPadding=10; cellSpacing=1 }
+body {text-align:center;}
+#table1 { width: 620px; HEIGHT: 168px; background-color: #FFFFFF; borderColor=#808080; border: 1px solid grey; padding: 20px;
+}
+#table2 { width: 620px; HEIGHT: 168px; background-color: #FFFFFF; borderColor=#808080; border: 1px solid grey; padding: 20px;
+}
+#table3 { width: 620px; HEIGHT: 323px; background-color: #333333; borderColor=#808080; border: 1px solid grey; padding: 10px;
+}
+#table4 { width: 620px; HEIGHT: 300px; background-color: #333333; borderColor=#808080; border: 1px solid grey; padding: 10px;
+}
+#table5 { width: 620px; HEIGHT: 100px; background-color: #FFFFFF; borderColor=#808080; border: 1px solid grey; padding: 10px;
+}
+#td { width: 100% }
+</style>
+<TABLE id="table3" class="center">
+  <TBODY>
+   <TR>
+    <TD><BR><P><H2>- WORDS - </STRONG></H2></TD>
+  <TR>
+    <TD>
+      <P>In the world of lists, playlists, and sortings there aren't any boundaries. The temptation is strong to list the best wines, games, films, books, and then stamps, shoes and why not 
+	  stones you encounter on your way. But there is more fetich than an act of creation in listing and ranging meticulously items<br>like an insect's collection.<br>This is the will to shape 
+	  a bit order in the chaos that shapes the world.<br>The desire to build a progression like an artist showing his photographs chronologically. You'll find as well colorfull exhibitions in 
+	  the other corners of this site. The goal is to create, with an aesthetic touch, and with the tools available at each period. The evolution is nowadays exponential, and 3D printing will 
+	  soon become a weapon a mass consumption. The innovative art will be replaced by daily utility, with a easier and practical printer in each home. You'll replace your fork, your pen's cap, your 
+	  shoes <br>and even your children's puzzle in an instant.<br> The art of adapting our everfaster changing environment will become an important skill.<br> The art itself is also transforming, 
+	  from pictural supports to digital ones, from static to animated scenes, even from linear to spatial lines. 3D printing already offers 3D drawind pens, that allow the artists to create 
+	  beautiful and fragile shapes in the air. Most of the screen applications also take the same direction, and the old holograms are back in the game.<br> 3D is also the emerging demand for 3D reality games, 
+	  as Occulus Rift devices and accessories, simulators and even panoramic cinema 4D or virtual chirurgical operations. The applications are endless and it is up to us to support, develop, even anticipate 
+	  them in a way that can remain constructive, entertaining and inspiring for us as human beings.<br>...</P><BR><br></TD></TR></TBODY></TABLE>
+<br><br><p><img src="gfx/line0.jpg" width="200" height="5" alt="line" title="" /></p><br><br>
+<P><IMG src="gfx/genero_design1.jpg" alt="" title=""></P><br>
+<br><p><img src="gfx/line0.jpg" width="200" height="5" alt="line" title="" /></p><br><br><br>
+<TABLE id="table1" class="center">
+	  <TBODY>
+	  <TR>
+		<TH colspan="2">&nbsp;<h2>PLAYLIST</h2></th></tr>
+	<tr>
+		<td><STRONG>:TOP 5 - 2014 BEST ALBUMS SO FAR:<BR><BR><BR></STRONG></TD>
+        <td><STRONG>:TOP 5 - 2013 BEST ALBUMS:<BR><BR><BR></STRONG></TD> 
+		<TR>
+          <TD><UL><li style="margin-bottom:1em">&nbsp; &bull; HIGHASAKITE "Silent Treatment"</li>
+		  <li style="margin-bottom:1em">&nbsp; &bull; R&Oslash;YKSOPP / ROBYN "Do it again"</li><li>&bull; -</li>
+		  <li>&bull; -</li><li>&bull; -</li></ul><br><p>. . .</p></TD>
+		   
+          <TD><UL><li>&nbsp; &bull; SUSANNE SUNDF&Oslash;R "The Silicon Veil"</li><li>&nbsp;</li>
+		  <li>&nbsp; &bull; SHPONGLE "Museum of Consciousness"</li><li>&nbsp;</li><li>&nbsp; &bull; BONOBO "The North Borders"</li><li>&nbsp;</li>
+		  <li>&nbsp; &bull; THE KNIFE "Shaking the Habitual"</li><li>&nbsp;</li><li>&nbsp; &bull; DEAD CAN DANCE "Anasthasis"</li><li>&nbsp;</li></ul><br><p>&nbsp;&nbsp;&nbsp;.&nbsp;.&nbsp;.</p><br></TD></TR></TBODY></TABLE>
+	  <BR><br><br><img src="gfx/line0.jpg" width="200" height="5" alt="line" title="" /><br><br><br><br></TBODY></TABLE><br>
+<TABLE id="table4" class="center">
+  <TBODY>
+  <TR>
+    <TD >
+      <p><H2>QUOTES</H2></p><BR><P>"A picture is worth a thousand words."<BR>Confucius/Napoleon Bonaparte/...".</P>------ - ------<BR>
+      <P>"All are architects of Fate, Working in these walls of Time." 
+      H.W. Longfellow - Extract of The Builders</P>------ - ------<br>
+      <P>"We are fighting the distinction between sacrifice and mysticism,<br> 
+      between energy and violence, between strength and cruelty,<br> for that even 
+      finer distinction <br>between the true and the false, between the man of the 
+      future and the cowardly gods you revere." <BR><A 
+      href="http://www.levity.com/corduroy/camus.htm" target=_blank>Albert 
+      Camus</A>- Quote from 'Resistance, Rebellion, and 
+      Death'</P>------ - ------<br>
+      <P>"We deceive ourselves when we fancy that only weakness needs 
+      support. Strength needs it far more."<br> Mrs 
+  Swetchine</P>------ - ------</TD></TR></TBODY></TABLE>
+<BR><br><br><p><img src="gfx/line0.jpg" width="200" height="5" alt="line" title="" /></p><br><br><br>
+		<TABLE id="table5" class="center">
+	  <TBODY>
+	  <TR>
+	  <TD>
+      <P><BR><H2>WISHLIST!</H2></P><BR><BR><P>If there's a Santa out there, here my wish list ;)</p><br>        
+          <UL><li>&nbsp; &bull; <a href="http://www.outerra.com" target="_blank">Outerra 3D planetary engine</a></li><li>&nbsp;</li>
+		  <li>&nbsp; &bull; <a href="http://www.vimeo.com/42119564" target="_blank">Drawing board ETOS</a></li><li>&nbsp;</li><li>&nbsp; &bull; Metal 3D printer</li><li>&nbsp;</li>
+		  <li>&nbsp; &bull; LIX 3D Printing Pen</li><li>&nbsp;</li></ul><p>. . . </p><BR></TD></TR></TBODY></TABLE>
+	  <BR>
+
+<div class="push"></div>
+        </div>
+        <div class="footer">
+<p><SCRIPT 
+src="E://vfsite/stylesheets/backhomebuttons.js"></SCRIPT>
+</p></div></style></BODY>
+</HTML>
