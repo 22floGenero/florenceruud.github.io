@@ -5,12 +5,12 @@ BODY {  font-family: Calibri, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 14px;
     vertical-align: middle;
     text-align: center;
-    background: #eee;
+    background: #000;
     overflow: auto; height: 100%; width: 848px; margin: 0 auto; /* center */ padding: 0 20px;
 		 border: 1px solid black; border-width: 0 1px;
 		 text-align: center;
 		 vertical-align: middle;
-		 background: #eee;    
+		 background: #000;    
 }
 
 #page-wrap { 
@@ -51,7 +51,7 @@ H2 {
 h1 {
 	font-family : Calibri, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	color: #1066F9; 
+	color: #333366; 
     	text-align:center;
     	font-weight:bold;     	
 }
@@ -90,7 +90,7 @@ TD, TR {
 	border : none;
 	font-family : Calibri, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size : 14px;
-	color : #666666;   
+	color : #999999;   
     text-align:center;
 
 }
